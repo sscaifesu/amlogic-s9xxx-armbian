@@ -216,7 +216,7 @@ on:
           - yourname
 
 env:
-  TZ: America/New_York
+  TZ: Asia/Shanghai
   ROOTFS_SCRIPT: compile-kernel/tools/script/armbian_rootfs.sh
 
 jobs:
@@ -340,7 +340,7 @@ jobs:
           body: |
             ### Armbian Image information
             - Default username: root
-            - Default password: 1234
+            - Default password: Demo@123!..
             - Install command: armbian-install
             - Update command: armbian-update
             ### Armbian Image Verification
